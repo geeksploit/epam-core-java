@@ -15,6 +15,10 @@ public class QuadraticEquation {
            case -1:
              out = "Imaginary roots. Machines lack imagination, thus I'm out.";
              break;
+           case 0:
+             float x = -b / (2 * a);
+             out = String.format("A single root found:\nx = %f", x);
+             break;
            default:
              out = "Something went wrong. Switch user and press any key.";
        }
