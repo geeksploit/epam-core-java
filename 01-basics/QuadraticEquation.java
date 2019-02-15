@@ -7,6 +7,17 @@ public class QuadraticEquation {
            return;
        }
       
+      String out;
+
+       float discriminant = b * b - 4 * a * c;
+
+       switch (Float.compare(discriminant, 0)) {
+           default:
+             out = "Something went wrong. Switch user and press any key.";
+       }
+
+       System.out.println(out);
+
     }
 
 }
