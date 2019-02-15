@@ -4,6 +4,7 @@ public class Main {
         QuadraticEquation.solve(0, 1, 1);
         QuadraticEquation.solve(1, 1, 1);
         QuadraticEquation.solve(1, 2, 1);
+        QuadraticEquation.solve(1, 4, 1);
     }
 
 }
