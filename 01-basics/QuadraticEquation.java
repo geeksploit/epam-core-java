@@ -19,6 +19,12 @@ public class QuadraticEquation {
              float x = -b / (2 * a);
              out = String.format("A single root found:\nx = %f", x);
              break;
+           case 1:
+             float divisor = -2 * a;
+             float x1 = (b + discriminant) / divisor;
+             float x2 = (b - discriminant) / divisor;
+             out = String.format("Multiple roots found:\nx1 = %f\nx2 = %f", x1, x2);
+             break;
            default:
              out = "Something went wrong. Switch user and press any key.";
        }
