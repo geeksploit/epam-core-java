@@ -12,6 +12,9 @@ public class QuadraticEquation {
        float discriminant = b * b - 4 * a * c;
 
        switch (Float.compare(discriminant, 0)) {
+           case -1:
+             out = "Imaginary roots. Machines lack imagination, thus I'm out.";
+             break;
            default:
              out = "Something went wrong. Switch user and press any key.";
        }
