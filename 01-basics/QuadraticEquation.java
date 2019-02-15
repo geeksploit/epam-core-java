@@ -2,6 +2,8 @@ public class QuadraticEquation {
 
     public static void solve(float a, float b, float c) {
 
+      System.out.println(String.format("\na = %f; b = %f; c = %f", a, b, c));
+
        if (Float.compare(a, 0) == 0) {
            System.out.println("Not a quadratic equation.");
            return;
