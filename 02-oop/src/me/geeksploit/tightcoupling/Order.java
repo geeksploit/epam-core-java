@@ -24,6 +24,10 @@ public class Order {
     ORDERS.add(this);
   }
 
+  static Order[] getAll() {
+    return ORDERS.toArray(new Order[0]);
+  }
+
   @Override
   public String toString() {
     return String.format("Order #%d by %s\nvisiting %s\nin %s\nTOTAL: $%d", hashCode(), customer, CITIES, COUNTRIES, price);
