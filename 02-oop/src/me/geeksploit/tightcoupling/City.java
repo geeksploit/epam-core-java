@@ -12,9 +12,10 @@ public class City {
   private boolean isCapital;
   private Country country;
 
-  public City(String name, int population) {
+  public City(String name, int population, Country country) {
     this.name = name;
     this.population = population;
+    this.country = country;
     CITIES.add(this);
   }
 
