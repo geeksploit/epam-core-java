@@ -24,4 +24,8 @@ public class Order {
     ORDERS.add(this);
   }
 
+  @Override
+  public String toString() {
+    return String.format("Order #%d by %s\nvisiting %s\nin %s\nTOTAL: $%d", hashCode(), customer, CITIES, COUNTRIES, price);
+  }
 }
