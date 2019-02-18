@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="399.0" height="560.0" viewBox="150.0 330.0 399.0 560.0" version="1.1">
+<rect x="150.0" y="330.0" width="399.0" height="560.0" fill="rgb(255,255,255)"/>
+<g id="s1106742184">
+<polygon id="s1106742184" points="300.0,360.0 399.99957,360.0 400.0,480.0 300.0,479.99997 " fill="rgb(217,204,140)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1106742184">
+<text x="319.5" y="386.7119" font-family="Helvetica" font-weight="bold" fill="rgb(102,51,102)" font-size="14" textLength="61.0">Customer</text>
+<path id="s1108059680" d="M 300.0,401.41992 399.99973,401.41992 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<text x="305.0" y="423.87207" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="61.0">firstName</text>
+<text x="305.0" y="442.45215" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="59.0">lastName</text>
+<text x="305.0" y="461.03223" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="55.0">passport</text>
+</g>
+</g>
+<g id="s1106630088">
+<polygon id="s1106630088" points="300.0,560.00006 399.99997,560.00006 400.0,680.00006 300.0,680.00006 " fill="rgb(217,204,140)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1106630088">
+<text x="332.5" y="605.29205" font-family="Helvetica" font-weight="bold" fill="rgb(102,51,102)" font-size="14" textLength="35.0">Order</text>
+<path id="s1107944640" d="M 300.0,620.00006 400.0,620.00006 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<text x="305.0" y="642.4522" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="30.0">price</text>
+</g>
+</g>
+<g id="s1106535072">
+<polygon id="s1106535072" points="180.0,740.0 280.0001,740.0 280.0001,859.99976 180.0,860.0 " fill="rgb(217,204,140)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1106535072">
+<text x="205.00005" y="776.00195" font-family="Helvetica" font-weight="bold" fill="rgb(102,51,102)" font-size="14" textLength="50.0">Country</text>
+<path id="s1107114352" d="M 180.0,790.70996 280.0001,790.70996 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<text x="185.0" y="813.1621" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="35.0">name</text>
+<text x="185.0" y="831.7422" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="58.0">language</text>
+</g>
+</g>
+<g id="s1106199000">
+<polygon id="s1106199000" points="419.99997,740.0 519.9989,740.0 519.99963,860.0 419.99997,859.9997 " fill="rgb(217,204,140)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1106199000">
+<text x="457.49982" y="766.7119" font-family="Helvetica" font-weight="bold" fill="rgb(102,51,102)" font-size="14" textLength="25.0">City</text>
+<path id="s1108310328" d="M 419.99997,781.4199 519.99915,781.4199 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<text x="425.0" y="803.8721" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="35.0">name</text>
+<text x="425.0" y="822.45215" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="66.0">population</text>
+<text x="425.0" y="841.0322" font-family="Helvetica" fill="rgb(102,51,102)" font-size="14" textLength="53.0">isCapital</text>
+</g>
+</g>
+<g id="la1107859176">
+<path id="s1107859176" d="M 280.0001,819.9999 419.99997,819.9999 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1107987000" d="M 300.0001,809.9999 300.0001,829.9999 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1107715080" d="M 295.0001,809.9999 295.0001,829.9999 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1107662816" d="M 399.99997,829.9999 399.99997,809.9999 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1107501968" d="M 419.99997,829.9999 404.99997,819.9999 419.99997,809.9999 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1107859176"/>
+</g>
+<g id="la1107667144">
+<path id="s1107667144" d="M 300.0,620.00006 230.00005,620.00006 230.00005,740.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106880776" d="M 300.0,630.00006 285.0,620.00006 300.0,610.00006 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<ellipse id="s1107989088" cx="280.0" cy="620.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106860736" d="M 220.00005,720.0 240.00005,720.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106846448" d="M 220.00005,740.0 230.00005,725.0 240.00005,740.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1107667144"/>
+</g>
+<g id="la1107175304">
+<path id="s1107175304" d="M 350.0,560.00006 350.0,480.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106807920" d="M 340.0,560.00006 350.0,545.00006 360.0,560.00006 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<ellipse id="s1107890776" cx="350.0" cy="540.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106784176" d="M 360.0,500.0 340.0,500.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106774024" d="M 360.0,495.0 340.0,495.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1107175304"/>
+</g>
+<g id="la1106683680">
+<path id="s1106683680" d="M 400.0,620.00006 469.99945,620.00006 469.99945,740.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106738384" d="M 400.0,610.00006 415.0,620.00006 400.0,630.00006 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<ellipse id="s1107627416" cx="420.0" cy="620.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106734472" d="M 459.99945,720.0 479.99945,720.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<path id="s1106719688" d="M 459.99945,740.0 469.99945,725.0 479.99945,740.0 " fill="none" stroke-width="2.0" stroke="rgb(102,51,102)"/>
+<g id="t1106683680"/>
+</g>
+</svg>
