@@ -18,4 +18,8 @@ public class City {
     CITIES.add(this);
   }
 
+  public Country getCountry() {
+    return country;
+  }
+
 }
