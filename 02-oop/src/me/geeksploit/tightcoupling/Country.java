@@ -9,4 +9,9 @@ public class Country {
     this.name = name;
     this.language = language;
   }
+
+  @Override
+  public String toString() {
+    return name;
+  }
 }
