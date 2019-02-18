@@ -23,4 +23,8 @@ public class City {
     return country;
   }
 
+  @Override
+  public String toString() {
+    return name;
+  }
 }
