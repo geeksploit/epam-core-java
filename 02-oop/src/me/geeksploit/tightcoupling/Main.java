@@ -15,5 +15,10 @@ public class Main {
     Customer johnDoe = new Customer("John", "Doe", "1234567890");
     Customer yokoNarayana = new Customer("Yoko", "Narayana", "234567890");
     Customer janeEyre = new Customer("Jane", "Eyre", "345678901");
+
+    new Order(johnDoe, 5_894, newYork);
+    new Order(johnDoe, 3_451, losAngeles);
+    new Order(yokoNarayana, 11_235, tokyo, osaka);
+    new Order(janeEyre, 5_816, newYork, losAngeles, tokyo, osaka);
   }
 }
