@@ -18,4 +18,8 @@ public class Customer {
     CUSTOMERS.add(this);
   }
 
+  @Override
+  public String toString() {
+    return String.format("%s %s", firstName, lastName);
+  }
 }
