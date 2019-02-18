@@ -20,5 +20,9 @@ public class Main {
     new Order(johnDoe, 3_451, losAngeles);
     new Order(yokoNarayana, 11_235, tokyo, osaka);
     new Order(janeEyre, 5_816, newYork, losAngeles, tokyo, osaka);
+
+    for (Order o : Order.getAll()) {
+      System.out.printf("\n%s\n", o);
+    }
   }
 }
