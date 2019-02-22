@@ -8,8 +8,8 @@ public class Order {
 
   private static final Set<Order> ORDERS = new HashSet<>();
 
-  private final Set<Country> COUNTRIES = new HashSet<>();
-  private final Set<City> CITIES = new HashSet<>();
+  private final Set<Country> countries = new HashSet<>();
+  private final Set<City> cities = new HashSet<>();
 
   private Customer customer;
   private int price;
@@ -18,9 +18,9 @@ public class Order {
     this.customer = customer;
     this.price = price;
     for (City c : cities) {
-      COUNTRIES.add(c.getCountry());
+      countries.add(c.getCountry());
     }
-    CITIES.addAll(Arrays.asList(cities));
+    cities.addAll(Arrays.asList(cities));
     ORDERS.add(this);
   }
 
@@ -30,6 +30,6 @@ public class Order {
 
   @Override
   public String toString() {
-    return String.format("Order #%d by %s\nvisiting %s\nin %s\nTOTAL: $%d", hashCode(), customer, CITIES, COUNTRIES, price);
+    return String.format("Order #%d by %s\nvisiting %s\nin %s\nTOTAL: $%d", hashCode(), customer, cities, countries, price);
   }
 }
