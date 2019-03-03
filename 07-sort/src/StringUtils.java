@@ -10,6 +10,10 @@ public final class StringUtils {
         return suboptimalBubbleSort(source, comparator);
     }
 
+    public static int compareToAsExcell(String first, String second) {
+        return 0;
+    }
+
     /**
      * A quick and dirty Bubble Sort implementation off the top of my head. No optimization
      * efforts attempted as its only purpose is to serve as a minimum viable sort provider.
