@@ -6,6 +6,14 @@ public final class StringUtils {
         int compare(String a, String b);
     }
 
+    /**
+     * A quick and dirty Bubble Sort implementation off the top of my head. No optimization
+     * efforts attempted as its only purpose is to serve as a minimum viable sort provider.
+     *
+     * @param source     an array to sort.
+     * @param comparator an agent to determine entities order.
+     * @return a copy of the source array sorted in the given order.
+     */
     private static String[] suboptimalBubbleSort(String[] source, Comparator comparator) {
         String[] result = source.clone();
         boolean sorted;
