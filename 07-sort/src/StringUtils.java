@@ -13,6 +13,14 @@ public final class StringUtils {
         return suboptimalBubbleSort(source, comparator);
     }
 
+    public static String[] sortArrayWithSortedMap(String[] source) {
+        SortedMap<String, Object> sortedMap = new TreeMap<>();
+        for (String next : source) {
+            sortedMap.put(next, null);
+        }
+        return sortedMap.keySet().toArray(new String[]{});
+    }
+
     /**
      * Compares two strings in alphabetical order. Lowercase characters precede or follow
      * respective uppercase characters depending on source order. Shorter strings precede
