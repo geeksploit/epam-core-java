@@ -1,3 +1,6 @@
+import java.util.SortedMap;
+import java.util.TreeMap;
+
 public final class StringUtils {
     private StringUtils() {
     }
@@ -58,6 +61,13 @@ public final class StringUtils {
         }
 
         return alphabeticalOrder;
+    }
+
+    public static int compareToAsJavaMap(String first, String second) {
+        SortedMap<String, Object> sortedMap = new TreeMap<>();
+        sortedMap.put(first, null);
+        sortedMap.put(second, null);
+        return first.equals(sortedMap.firstKey()) ? -1 : 1;
     }
 
     /**
