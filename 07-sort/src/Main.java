@@ -11,6 +11,7 @@ public class Main {
                 "Z",
                 "HE",
                 "z",
+                "A",
                 "a",
                 "Hello",
                 "A"
