@@ -30,5 +30,8 @@ public class Main {
 
         System.out.printf(FORMAT, "built-in String::compareTo",
                 Arrays.toString(StringUtils.sortArray(arr, String::compareTo)));
+
+        System.out.printf(FORMAT, "built-in Java TreeMap comparator",
+                Arrays.toString(StringUtils.sortArray(arr, StringUtils::compareToAsJavaMap)));
     }
 }
