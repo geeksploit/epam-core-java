@@ -21,5 +21,11 @@ public class Main {
 
         System.out.printf(FORMAT, "custom Excel-like comparator",
                 Arrays.toString(StringUtils.sortArray(arr, StringUtils::compareToAsExcell)));
+
+        System.out.printf(FORMAT, "built-in String::compareToIgnoreCase",
+                Arrays.toString(StringUtils.sortArray(arr, String::compareToIgnoreCase)));
+
+        System.out.printf(FORMAT, "built-in String::compareTo",
+                Arrays.toString(StringUtils.sortArray(arr, String::compareTo)));
     }
 }
