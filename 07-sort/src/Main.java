@@ -34,5 +34,8 @@ public class Main {
 
         System.out.printf(FORMAT, "built-in Java TreeMap comparator",
                 Arrays.toString(StringUtils.sortArray(arr, StringUtils::compareToAsJavaMap)));
+
+        System.out.printf(FORMAT, "built-in Java TreeMap container",
+                Arrays.toString(StringUtils.sortArrayWithSortedMap(arr)));
     }
 }
