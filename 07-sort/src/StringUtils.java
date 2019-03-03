@@ -11,6 +11,8 @@ public final class StringUtils {
         boolean sorted;
         do {
             sorted = true;
+            for (int i = 0, j = 1; j < result.length; i++, j++) {
+            }
         } while (!sorted);
         return result;
     }
