@@ -34,6 +34,17 @@ public final class StringUtils {
         return first.length() - second.length();
     }
 
+    /**
+     * Compares two strings in dictionary order. Lowercase characters always follow respective
+     * uppercase characters for equally long strings as it is usual in dictionaries. Shorter
+     * strings precede longer ones if their overlapping parts match.
+     *
+     * @param first  the first of two strings to be compared.
+     * @param second a string to be compared with the first one.
+     * @return 0 if the sequences match;
+     * a negative value if the first sequence precedes the second one;
+     * a positive value otherwise.
+     */
     public static int compareToAsHuman(String first, String second) {
         int alphabeticalOrder = compareToAsExcell(first, second);
 
