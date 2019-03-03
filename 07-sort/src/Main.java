@@ -19,6 +19,9 @@ public class Main {
         System.out.printf(FORMAT, "source array",
                 Arrays.toString(arr));
 
+        System.out.printf(FORMAT, "custom human-like comparator",
+                Arrays.toString(StringUtils.sortArray(arr, StringUtils::compareToAsHuman)));
+
         System.out.printf(FORMAT, "custom Excel-like comparator",
                 Arrays.toString(StringUtils.sortArray(arr, StringUtils::compareToAsExcell)));
 
