@@ -36,6 +36,12 @@ public final class StringUtils {
 
     public static int compareToAsHuman(String first, String second) {
         int alphabeticalOrder = compareToAsExcell(first, second);
+
+        if (alphabeticalOrder == 0) {
+            for (int i = 0; i < first.length(); i++) {
+            }
+        }
+
         return alphabeticalOrder;
     }
 
