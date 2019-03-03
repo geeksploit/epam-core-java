@@ -11,7 +11,7 @@ public final class StringUtils {
     }
 
     public static int compareToAsExcell(String first, String second) {
-        return 0;
+        return first.length() - second.length();
     }
 
     /**
