@@ -13,10 +13,17 @@ public final class StringUtils {
             sorted = true;
             for (int i = 0, j = 1; j < result.length; i++, j++) {
                 if (comparator.compare(result[i], result[j]) > 0) {
+                    swap(result, i, j);
                     sorted = false;
                 }
             }
         } while (!sorted);
         return result;
+    }
+
+    private static void swap(String[] arr, int leftIndex, int rightIndex) {
+        String stash = arr[leftIndex];
+        arr[leftIndex] = arr[rightIndex];
+        arr[rightIndex] = stash;
     }
 }
