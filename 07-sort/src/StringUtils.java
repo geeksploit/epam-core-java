@@ -11,6 +11,8 @@ public final class StringUtils {
     }
 
     public static int compareToAsExcell(String first, String second) {
+        first = first.toLowerCase();
+        second = second.toLowerCase();
         return first.length() - second.length();
     }
 
