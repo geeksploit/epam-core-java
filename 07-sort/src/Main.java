@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     private static final String FORMAT = "%-36s - %s\n";
@@ -13,5 +15,8 @@ public class Main {
                 "Hello",
                 "A"
         };
+
+        System.out.printf(FORMAT, "source array",
+                Arrays.toString(arr));
     }
 }
