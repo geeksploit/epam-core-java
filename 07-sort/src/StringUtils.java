@@ -12,6 +12,9 @@ public final class StringUtils {
         do {
             sorted = true;
             for (int i = 0, j = 1; j < result.length; i++, j++) {
+                if (comparator.compare(result[i], result[j]) > 0) {
+                    sorted = false;
+                }
             }
         } while (!sorted);
         return result;
