@@ -3,7 +3,7 @@ public final class StringUtils {
     }
 
     public interface Comparator {
-        int compare(String a, String b);
+        int compare(String first, String second);
     }
 
     public static String[] sortArray(String[] source, Comparator comparator) {
