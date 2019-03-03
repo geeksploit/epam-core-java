@@ -39,6 +39,10 @@ public final class StringUtils {
 
         if (alphabeticalOrder == 0) {
             for (int i = 0; i < first.length(); i++) {
+                if (Character.isLowerCase(first.charAt(i))
+                        && Character.isUpperCase(second.charAt(i))) {
+                    return 1;
+                }
             }
         }
 
