@@ -15,6 +15,10 @@ public final class StringUtils {
         second = second.toLowerCase();
         int length = Math.min(first.length(), second.length());
         for (int i = 0; i < length; i++) {
+            int diff = first.charAt(i) - second.charAt(i);
+            if (diff != 0) {
+                return diff;
+            }
         }
         return first.length() - second.length();
     }
