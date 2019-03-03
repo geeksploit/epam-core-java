@@ -34,6 +34,11 @@ public final class StringUtils {
         return first.length() - second.length();
     }
 
+    public static int compareToAsHuman(String first, String second) {
+        int alphabeticalOrder = compareToAsExcell(first, second);
+        return alphabeticalOrder;
+    }
+
     /**
      * A quick and dirty Bubble Sort implementation off the top of my head. No optimization
      * efforts attempted as its only purpose is to serve as a minimum viable sort provider.
